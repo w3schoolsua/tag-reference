@@ -38,7 +38,7 @@
     --code-bg: #1a2783;
     --code-text: #ddd;
     --code-border: 1px solid rgba(151, 165, 184, 0.7);
-    --tag-hover-bg: rgba(255, 255, 255, 0.10);
+    --tag-hover-bg: rgb(131, 2, 2);
     --tag-hover-shadow: rgb(0, 0, 0);
 }
 
