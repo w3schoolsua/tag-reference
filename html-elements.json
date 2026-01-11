@@ -1,6 +1,6 @@
 {
   "html_elements": [
-    { "tag": "!--...--", "status": "standard", "category": "metadata", "description": "HTML-коментар", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Comment" },
+    { "tag": "!--...--", "status": "standard", "category": "metadata", "description": "HTML-коментар", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Comments" },
     { "tag": "!DOCTYPE", "status": "standard", "category": "document", "description": "Оголошення типу документа HTML", "mdn": "https://developer.mozilla.org/en-US/docs/Glossary/Doctype" },
     { "tag": "a", "status": "standard", "category": "hyperlink", "description": "Гіперпосилання", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" },
     { "tag": "abbr", "status": "standard", "category": "text", "description": "Абревіатура", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" },
