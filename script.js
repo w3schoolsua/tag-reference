@@ -80,10 +80,20 @@ function renderTable() {
         const tr = document.createElement('tr');
 
         const tdTag = document.createElement('td');
+
+        // посилання, але зі збереженням старого стилю .tag-code
+        const link = document.createElement('a');
+        link.href = el.mdn;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.className = "tag-link";
+
         const code = document.createElement('span');
         code.className = 'tag-code';
         code.textContent = `<${el.tag}>`;
-        tdTag.appendChild(code);
+
+        link.appendChild(code);
+        tdTag.appendChild(link);
 
         const tdStatus = document.createElement('td');
         tdStatus.appendChild(createStatusPill(el.status));
@@ -198,12 +208,14 @@ async function loadJson() {
             throw new Error('Невірний формат JSON (очікується html_elements[])');
         }
 
+        /* --- ВАЖЛИВО: ЧИТАЄМО MDN --- */
         state.allElements = data.html_elements
             .map(el => ({
                 tag: el.tag,
                 status: el.status || 'standard',
                 category: el.category || 'інше',
-                description: el.description || ''
+                description: el.description || '',
+                mdn: el.mdn || null
             }))
             .sort((a, b) => a.tag.localeCompare(b.tag));
 
