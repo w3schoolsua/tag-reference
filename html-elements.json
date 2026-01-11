@@ -1,5 +1,7 @@
 {
   "html_elements": [
+    { "tag": "!--...--", "status": "standard", "category": "metadata", "description": "HTML-коментар", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Comment" },
+    { "tag": "!DOCTYPE", "status": "standard", "category": "document", "description": "Оголошення типу документа HTML", "mdn": "https://developer.mozilla.org/en-US/docs/Glossary/Doctype" },
     { "tag": "a", "status": "standard", "category": "hyperlink", "description": "Гіперпосилання", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" },
     { "tag": "abbr", "status": "standard", "category": "text", "description": "Абревіатура", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" },
     { "tag": "acronym", "status": "obsolete", "category": "obsolete", "description": "Акронім (застарілий, замінено на abbr)", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym" },
@@ -133,6 +135,7 @@
     { "tag": "sub", "status": "standard", "category": "text", "description": "Нижній індекс", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub" },
     { "tag": "summary", "status": "standard", "category": "interactive", "description": "Заголовок details", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary" },
     { "tag": "sup", "status": "standard", "category": "text", "description": "Верхній індекс", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup" },
+    { "tag": "svg", "status": "standard", "category": "graphics", "description": "Векторна графіка SVG", "mdn": "https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg" },
 
     { "tag": "table", "status": "standard", "category": "tables", "description": "Таблиця", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" },
     { "tag": "tbody", "status": "standard", "category": "tables", "description": "Тіло таблиці", "mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody" },
