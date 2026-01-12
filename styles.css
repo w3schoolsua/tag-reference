@@ -71,10 +71,10 @@ body {margin: 0;font-family: system-ui, -apple-system, BlinkMacSystemFont, "Sego
 .table-wrapper {margin-top: 10px;border-radius: 16px;border: 1px solid var(--border);overflow: hidden;background: var(--bg-alt)}
 table {width: 100%;border-collapse: collapse;font-size: 1rem}
 thead {background: linear-gradient(90deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.85));color: #e5e7eb}
-th, td {padding: 8px 10px;text-align: left;border-bottom: 1px solid var(--border);font-size: 1rem}
+th, td {padding: 8px;text-align: left;border-bottom: 1px solid var(--border);font-size: 1rem}
 th {font-weight: 600;font-size: 0.8rem;text-transform: uppercase;letter-spacing: 0.06em;position: sticky;top: 0;z-index: 1;cursor: pointer;user-select: none}
-th.sort-asc::after {content: " ▲";font-size: 0.7rem}
-th.sort-desc::after {content: " ▼";font-size: 0.7rem}
+th.sort-asc::after {content: " ▲";font-size: 0.8rem}
+th.sort-desc::after {content: " ▼";font-size: 0.8rem}
 tbody tr:nth-child(odd) {background: var(--table-row-odd)}
 tbody tr:nth-child(even) {background: var(--table-row-even)}
 tbody tr:hover {background: var(--table-row-hover)}
@@ -87,8 +87,8 @@ tbody tr:hover {background: var(--table-row-hover)}
 .footer-note {margin-top: 10px;font-size: 0.75rem;color: var(--muted);display: flex;justify-content: space-between;gap: 10px;flex-wrap: wrap}
 .footer-note span {white-space: nowrap}
 @media (max-width: 768px) {
-    .card {padding: 18px 14px 22px;border-radius: 18px}
-    .title-block h1 {font-size: 1.3rem}
+    .card {padding: 10px 5px 15px;border-radius: 18px}
+    .title-block h1,p {font-size: 1.3rem;padding: 0 5px;text-align: center}
     th:nth-child(4),td:nth-child(4) {display: none}
     body {padding: 5px}
 }
