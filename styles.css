@@ -89,6 +89,6 @@ tbody tr:hover {background: var(--table-row-hover)}
 @media (max-width: 768px) {
     .card {padding: 10px 5px 15px;border-radius: 18px}
     .title-block h1,p {font-size: 1.3rem;padding: 0 5px;text-align: center}
-    th:nth-child(4),td:nth-child(4) {display: none}
+    th:nth-child(4),td:nth-child(4) {overflow: auto}
     body {padding: 5px}
 }
